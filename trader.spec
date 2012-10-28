@@ -33,6 +33,5 @@ rm -rf %{buildroot}
 
 %files -f %{name}.lang
 %doc NEWS README
-%doc %{_mandir}/man6/%{name}.6*
 %{_bindir}/%{name}
 %{_mandir}/man6/%{name}.6*
