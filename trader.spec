@@ -1,11 +1,11 @@
 Name:		trader
-Version:	7.4
-Release:	%mkrel 1
+Version:	7.10
+Release:	1
 Summary:	A simple game of interstellar trading
 License:	GPLv3+
 Group:		Games/Strategy
 Url:		http://www.zap.org.au/software/trader/
-Source0:	http://www.zap.org.au/software/trader/unix/%{name}-%{version}.tar.gz
+Source0:	http://www.zap.org.au/software/trader/unix/%{name}-%{version}.tar.xz
 
 BuildRequires:	gettext
 BuildRequires:	gperf
@@ -28,10 +28,9 @@ order to become the wealthiest player (the winner).
 %makeinstall
 %find_lang %{name}
 
-%clean
-rm -rf %{buildroot}
-
 %files -f %{name}.lang
 %doc NEWS README
 %{_bindir}/%{name}
 %{_mandir}/man6/%{name}.6*
+%{_datadir}/applications/%{name}.desktop
+%{_datadir}/icons/*/*/*/*
