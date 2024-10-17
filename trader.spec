@@ -4,7 +4,7 @@ Release:	1
 Summary:	A simple game of interstellar trading
 License:	GPLv3+
 Group:		Games/Strategy
-Url:		http://www.zap.org.au/software/trader/
+Url:		https://www.zap.org.au/software/trader/
 Source0:	http://www.zap.org.au/software/trader/unix/%{name}-%{version}.tar.xz
 
 BuildRequires:	gettext
