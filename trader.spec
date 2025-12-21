@@ -7,6 +7,11 @@ Group:		Games/Strategy
 Url:		https://www.zap.org.au/software/trader/
 Source0:	http://www.zap.org.au/software/trader/unix/%{name}-%{version}.tar.xz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gettext
 BuildRequires:	gperf
 BuildRequires:	ncurses-devel
